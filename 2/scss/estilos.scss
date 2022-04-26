@@ -1,0 +1,60 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../scss/otros/variables";
+#objeto1{
+    background-color: $obj1;
+    border: 1px solid black
+}
+#objeto2{
+    background-color: $obj2;
+    border: 1px solid black
+}
+#objeto3{
+    background-color: $obj3;
+    border: 1px solid black
+}
+#objeto4{
+    background-color: $obj4;
+    border: 1px solid black
+}
+@include media-breakpoint-up(sm){
+    #objeto1{
+        background-color:$obj2 ;
+    }
+    #objeto2{
+        background-color:$obj3 ;
+    }
+    #objeto3{
+        background-color:$obj1 ;
+    }
+    #objeto4{
+        background-color:$obj4 ;
+    }
+}
+@include media-breakpoint-up(md){
+    #objeto1{
+        background-color:$obj3 ;
+    }
+    #objeto2{
+        background-color:$obj1 ;
+    }
+    #objeto3{
+        background-color:$obj2 ;
+    }
+    #objeto4{
+        background-color:$obj4 ;
+    }
+}
+@include media-breakpoint-up(lg){
+    #objeto1{
+        background-color:$obj1 ;
+    }
+    #objeto2{
+        background-color:$obj2 ;
+    }
+    #objeto3{
+        background-color:$obj3 ;
+    }
+    #objeto4{
+        background-color:$obj4 ;
+    }
+}

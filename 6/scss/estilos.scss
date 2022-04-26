@@ -1,0 +1,46 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../scss/otros/variables";
+
+.menu{
+    background-color: $obj1;
+}
+.menu li a{
+    border: solid 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 30px;
+}
+.menu li{
+    display:inline-block;
+    
+}
+.menu li a:hover{
+    background-color: $obj2;
+    
+}
+
+@include media-breakpoint-up(sm){
+    .menu{
+        background-color:$obj5 ;
+    }
+    .menu li a:hover{
+        background-color:$obj6 ;
+    }
+}
+@include media-breakpoint-up(md){
+    .menu{
+        background-color:$obj3 ;
+    }
+    .menu li a:hover{
+        background-color:$obj4 ;
+    }
+}
+@include media-breakpoint-up(lg){
+    .menu{
+        background-color:$obj1 ;
+    }
+    .menu li a:hover{
+        background-color:$obj2 ;
+    }
+}

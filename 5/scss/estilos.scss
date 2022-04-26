@@ -1,0 +1,101 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../scss/otros/variables";
+
+header{
+    background-color: $obj1;
+    border: 1px solid black
+}
+#nav{
+    background-color: $obj2;
+    border: 1px solid black
+}
+#aside1{
+    background-color: $obj3;
+    border: 1px solid black
+}
+#cua1{
+    background-color: $obj4;
+    border: 1px solid black
+}
+#cua2{
+    background-color: $obj5;
+    border: 1px solid black
+}
+#cubo{
+    background-color: $obj6;
+    border: 1px solid black
+}
+#footer1{
+    background-color: $obj7;
+    border: 1px solid black
+}
+
+@include media-breakpoint-up(sm){
+    header{
+        background-color:$obj7 ;
+    }
+    #nav{
+        background-color:$obj5 ;
+    }
+    #aside1{
+        background-color: $obj2;
+    }
+    #cua1{
+        background-color:$obj3 ;
+    }
+    #cua2{
+        background-color:$obj6 ;
+    }
+    #cubo{
+        background-color:$obj1 ;
+    }
+    #footer1{
+        background-color:$obj4 ;
+    }
+}
+@include media-breakpoint-up(md){
+    header{
+        background-color:$obj6 ;
+    }
+    #nav{
+        background-color:$obj1 ;
+    }
+    #aside1{
+        background-color:$obj3 ;
+    }
+    #cua1{
+        background-color:$obj4 ;
+    }
+    #cua2{
+        background-color:$obj2 ;
+    }
+    #cubo{
+        background-color:$obj7 ;
+    }
+    #footer1{
+        background-color:$obj5 ;
+    }
+}
+@include media-breakpoint-up(lg){
+    header{
+        background-color:$obj1 ;
+    }
+    #nav{
+        background-color:$obj2 ;
+    }
+    #aside1{
+        background-color:$obj3 ;
+    }
+    #cua1{
+        background-color:$obj4 ;
+    }
+    #cua2{
+        background-color:$obj5 ;
+    }
+    #cubo{
+        background-color:$obj6 ;
+    }
+    #footer1{
+        background-color:$obj7 ;
+    }
+}

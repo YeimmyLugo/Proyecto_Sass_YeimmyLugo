@@ -1,0 +1,87 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../scss/otros/variables";
+
+#lua1{
+    background-color: $obj1;
+    border: 1px solid black
+}
+#cuadrado1{
+    background-color: $obj2;
+    border: 1px solid black
+}
+#cuadrado2{
+    background-color: $obj3;
+    border: 1px solid black
+}
+#cuadrado3{
+    background-color: $obj4;
+    border: 1px solid black
+}
+#pie1{
+    background-color: $obj5;
+    border: 1px solid black
+}
+#pie2{
+    background-color: $obj6;
+    border: 1px solid black
+}
+@include media-breakpoint-up(sm){
+    #lua1{
+        background-color:$obj2 ;
+    }
+    #cuadrado1{
+        background-color:$obj3 ;
+    }
+    #cuadrado2{
+        background-color:$obj1 ;
+    }
+    #cuadrado3{
+        background-color:$obj4 ;
+    }
+    #pie1{
+        background-color:$obj6 ;
+    }
+    #pie2{
+        background-color:$obj5 ;
+    }
+}
+@include media-breakpoint-up(md){
+    #lua1{
+        background-color:$obj3 ;
+    }
+    #cuadrado1{
+        background-color:$obj1 ;
+    }
+    #cuadrado2{
+        background-color:$obj2 ;
+    }
+    #cuadrado3{
+        background-color:$obj6 ;
+    }
+    #pie1{
+        background-color:$obj4 ;
+    }
+    #pie2{
+        background-color:$obj5 ;
+    }
+}
+@include media-breakpoint-up(lg){
+    #lua1{
+        background-color:$obj4 ;
+    }
+    #cuadrado1{
+        background-color:$obj2 ;
+    }
+    #cuadrado2{
+        background-color:$obj1 ;
+    }
+    #cuadrado3{
+        background-color:$obj5 ;
+    }
+    #pie1{
+        background-color:$obj3 ;
+    }
+    #pie2{
+        background-color:$obj6 ;
+    }
+}

@@ -1,0 +1,49 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../scss/otros/variables";
+#columna1{
+    background-color: $obj1;
+    border: 3px; color: coral;
+}
+#columna2{
+    background-color: $obj2;
+    border: 3px; color: coral;
+}
+#columna3{
+    background-color: $obj3;
+    border: 3px; color: coral;
+}
+
+@include media-breakpoint-up(sm){
+    #columna1{
+        background-color:$obj4 ;
+    }
+    #columna2{
+        background-color:$obj3 ;
+    }
+    #columna3{
+        background-color:$obj1 ;
+    }
+}
+
+@include media-breakpoint-up(md){
+    #columna1{
+        background-color:$obj3 ;
+    }
+    #columna2{
+        background-color:$obj1 ;
+    }
+    #columna3{
+        background-color:$obj4 ;
+    }
+}
+@include media-breakpoint-up(lg){
+    #columna1{
+        background-color:$obj1 ;
+    }
+    #columna2{
+        background-color:$obj2 ;
+    }
+    #columna3{
+        background-color:$obj3 ;
+    }
+}

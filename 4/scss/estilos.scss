@@ -1,0 +1,87 @@
+@import "../libs/bootstrap/scss/bootstrap";
+@import "../scss/otros/variables";
+
+header{
+    background-color: $obj1;
+    border: 1px solid black
+}
+#obj1{
+    background-color: $obj2;
+    border: 1px solid black
+}
+#obj2{
+    background-color: $obj3;
+    border: 1px solid black
+}
+#obj3{
+    background-color: $obj4;
+    border: 1px solid black
+}
+#aside{
+    background-color: $obj5;
+    border: 1px solid black
+}
+footer{
+    background-color: $obj6;
+    border: 1px solid black
+}
+@include media-breakpoint-up(sm){
+    header{
+        background-color:$obj6 ;
+    }
+    #obj1{
+        background-color:$obj3 ;
+    }
+    #obj2{
+        background-color:$obj1 ;
+    }
+    #obj3{
+        background-color:$obj4 ;
+    }
+    #aside{
+        background-color:$obj5 ;
+    }
+    footer{
+        background-color:$obj2 ;
+    }
+}
+@include media-breakpoint-up(md){
+    header{
+        background-color:$obj3 ;
+    }
+    #obj1{
+        background-color:$obj1 ;
+    }
+    #obj2{
+        background-color:$obj2 ;
+    }
+    #obj3{
+        background-color:$obj6 ;
+    }
+    #aside{
+        background-color:$obj5 ;
+    }
+    footer{
+        background-color:$obj4 ;
+    }
+}
+@include media-breakpoint-up(lg){
+    header{
+        background-color:$obj1 ;
+    }
+    #obj1{
+        background-color:$obj2 ;
+    }
+    #obj2{
+        background-color:$obj3 ;
+    }
+    #obj3{
+        background-color:$obj4 ;
+    }
+    #aside{
+        background-color:$obj5 ;
+    }
+    footer{
+        background-color:$obj6 ;
+    }
+}
